@@ -27,7 +27,8 @@
     { "id": 25, "name": "Jerry Jiang", "major": "Math Stats Finance" },
     { "id": 26, "name": "Kairu Liu", "major": "Biomedical" },
     { "id": 27, "name": "Alex Klaus", "major": "Aerospace" },
-    { "id": 28, "name": "Ana Luiza Larieu", "major": "Biomedical" }
+    { "id": 28, "name": "Ana Luiza Larieu", "major": "Biomedical" },
+    { "id": 29, "name": "Gaby Wang", "major": "Engineering Physics" }
     
   ]
 }
