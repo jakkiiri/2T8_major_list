@@ -24,6 +24,11 @@ export default function Footer() {
             </motion.div>
             <span>by Jacky Li</span>
           </div>
+          
+          {/* Help credit */}
+          <p className="text-gray-500 text-xs sm:text-sm">
+            Help from Bonnie 💫
+          </p>
 
           {/* Link */}
           <a
