@@ -35,6 +35,8 @@
     { "id": 33, "name": "Oscar Low", "major": "Robotics" },
     { "id": 34, "name": "Nicole Anderson", "major": "Aerospace" },
     { "id": 35, "name": "Harley Wu", "major": "Electrical and Computer" },
-    { "id": 36, "name": "Charlotte Winter", "major": "Engineering Physics" }
+    { "id": 36, "name": "Charlotte Winter", "major": "Engineering Physics" },
+    { "id": 37, "name": "Lindsay Tu", "major": "Biomedical" },
+    { "id": 38, "name": "Hasnain Syed", "major": "Machine Intelligence" }
   ]
 }
