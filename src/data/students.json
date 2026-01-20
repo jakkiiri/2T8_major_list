@@ -28,7 +28,10 @@
     { "id": 26, "name": "Kairu Liu", "major": "Biomedical" },
     { "id": 27, "name": "Alex Klaus", "major": "Aerospace" },
     { "id": 28, "name": "Ana Luiza Larieu", "major": "Biomedical" },
-    { "id": 29, "name": "Gaby Wang", "major": "Engineering Physics" }
-    
+    { "id": 29, "name": "Gaby Wang", "major": "Engineering Physics" },
+    { "id": 30, "name": "Frank Fang", "major": "Aerospace" },
+    { "id": 31, "name": "June Kim", "major": "Machine Intelligence" },
+    { "id": 32, "name": "Sarah Chum", "major": "Energy Systems" },
+    { "id": 33, "name": "Oscar Low", "major": "Robotics" }
   ]
 }
