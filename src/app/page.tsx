@@ -33,10 +33,10 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-full">
+    <div className="relative min-h-full flex flex-col items-center">
       <ParticleBackground />
       
-      <main className="relative" style={{ zIndex: 1 }}>
+      <main className="relative w-full" style={{ zIndex: 1 }}>
         <Header />
         
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 xl:px-12 pb-8">
