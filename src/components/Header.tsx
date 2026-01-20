@@ -21,7 +21,7 @@ export default function Header() {
       <div className="absolute inset-0 grid-bg opacity-50 hidden sm:block" />
       
       {/* Floating decorative elements - hidden on mobile for performance */}
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <motion.div
           className="absolute top-10 right-20 text-6xl opacity-20"
           animate={{ 
@@ -85,7 +85,7 @@ export default function Header() {
             </div>
           </div>
 
-          {/* University Badge - simplified on mobile */}
+          {/* University Badge */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -100,16 +100,16 @@ export default function Header() {
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-[#FFD54F]" />
           </motion.div>
 
-          {/* Rotating Quote - smaller on mobile */}
+          {/* Rotating Quote */}
           <motion.div
             key={quoteIndex}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.5 }}
-            className="max-w-2xl mx-auto px-4"
+            className="max-w-2xl mx-auto px-2"
           >
-            <p className="text-base sm:text-xl md:text-2xl text-gray-300 italic font-light">
+            <p className="text-sm sm:text-xl md:text-2xl text-gray-300 italic font-light leading-relaxed">
               &ldquo;{ENGSCI_QUOTES[quoteIndex]}&rdquo;
             </p>
           </motion.div>

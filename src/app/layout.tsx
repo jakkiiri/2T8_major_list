@@ -27,7 +27,10 @@ export const metadata: Metadata = {
   title: "EngSci 2T8 Major Tracker",
   description: "Track intended majors for Engineering Science Class of 2T8",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/favicon.svg",
   },
   appleWebApp: {
     capable: true,

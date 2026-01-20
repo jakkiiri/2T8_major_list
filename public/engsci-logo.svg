@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- EngSci Stick Figure Logo -->
+  <g fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head circle -->
+    <circle cx="70" cy="70" r="35" />
+    
+    <!-- Hard hat -->
+    <path d="M35 55 Q35 35 70 35 Q105 35 105 55" />
+    <line x1="30" y1="55" x2="110" y2="55" />
+    
+    <!-- Eyes -->
+    <circle cx="55" cy="65" r="4" fill="white" stroke="none" />
+    <circle cx="85" cy="65" r="4" fill="white" stroke="none" />
+    
+    <!-- Body (V shape going down) -->
+    <line x1="70" y1="105" x2="50" y2="180" />
+    <line x1="70" y1="105" x2="90" y2="180" />
+    
+    <!-- Left arm with ball -->
+    <line x1="70" y1="120" x2="30" y2="150" />
+    <circle cx="25" cy="155" r="8" fill="white" />
+    
+    <!-- Psi symbol (Ψ) on the right -->
+    <path d="M130 60 L130 130" />
+    <path d="M110 80 Q110 60 130 60 Q150 60 150 80" />
+    <line x1="130" y1="60" x2="130" y2="45" />
+  </g>
+</svg>
