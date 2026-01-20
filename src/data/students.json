@@ -1,0 +1,10 @@
+{
+  "students": [
+    { "id": 1, "name": "Jacky Li", "major": "Electrical and Computer" },
+    { "id": 2, "name": "Nareen Kouyoumdjian", "major": "Engineering Physics" },
+    { "id": 3, "name": "Rihanna Popescu", "major": "Energy Systems" },
+    { "id": 4, "name": "Hannah Moore", "major": "Biomedical" },
+    { "id": 5, "name": "Marco Bordignon", "major": "Aerospace" },
+    { "id": 6, "name": "Violet Dimoglou", "major": "Energy Systems" }
+  ]
+}
