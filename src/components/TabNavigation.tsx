@@ -18,7 +18,7 @@ const tabs = [
 export default function TabNavigation({ activeTab, onTabChange }: TabNavigationProps) {
   return (
     <div className="flex justify-center mb-5 sm:mb-8">
-      <div className="glass-strong rounded-2xl p-1.5 sm:p-2 flex gap-1 sm:gap-2 w-full max-w-md sm:max-w-3xl">
+      <div className="glass-strong rounded-2xl p-1.5 sm:p-2 flex gap-1 sm:gap-2 w-full sm:w-auto sm:min-w-[500px] lg:min-w-[600px]">
         {tabs.map((tab) => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;
@@ -27,7 +27,7 @@ export default function TabNavigation({ activeTab, onTabChange }: TabNavigationP
             <motion.button
               key={tab.id}
               onClick={() => onTabChange(tab.id)}
-              className={`relative flex-1 px-2 sm:px-10 py-2.5 sm:py-3.5 rounded-xl font-medium transition-colors flex items-center justify-center gap-1.5 sm:gap-3 ${
+              className={`relative flex-1 px-2 sm:px-8 lg:px-12 py-2.5 sm:py-3.5 rounded-xl font-medium transition-colors flex items-center justify-center gap-1.5 sm:gap-3 ${
                 isActive ? "text-[#002A5C]" : "text-gray-400 hover:text-white active:text-white"
               }`}
               whileTap={{ scale: 0.97 }}

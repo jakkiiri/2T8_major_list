@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import { ENGSCI_QUOTES } from "@/types";
 import { Sparkles, GraduationCap, PlusCircle, ArrowRight } from "lucide-react";
@@ -134,18 +134,20 @@ export default function Header() {
             </p>
           </motion.div>
 
-          {/* Rotating Quote - Fixed height container to prevent layout shift */}
-          <div className="max-w-2xl mx-auto px-2 min-h-[60px] sm:min-h-[70px] flex items-center justify-center">
-            <motion.p
-              key={quoteIndex}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className="text-sm sm:text-xl md:text-2xl text-gray-300 italic font-light leading-relaxed"
-            >
-              &ldquo;{ENGSCI_QUOTES[quoteIndex]}&rdquo;
-            </motion.p>
+          {/* Rotating Quote - Fixed height to prevent layout shift */}
+          <div className="w-full max-w-3xl mx-auto h-[80px] sm:h-[70px] relative">
+            <AnimatePresence mode="wait">
+              <motion.p
+                key={quoteIndex}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="absolute inset-0 flex items-center justify-center text-sm sm:text-xl md:text-2xl text-gray-300 italic font-light leading-relaxed px-4"
+              >
+                &ldquo;{ENGSCI_QUOTES[quoteIndex]}&rdquo;
+              </motion.p>
+            </AnimatePresence>
           </div>
         </motion.div>
       </div>

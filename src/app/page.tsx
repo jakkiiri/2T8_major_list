@@ -39,25 +39,21 @@ export default function Home() {
       <main className="relative w-full" style={{ zIndex: 1 }}>
         <Header />
         
-        <div className="w-full px-4 sm:px-8 lg:px-16 xl:px-24 2xl:px-32 pb-8">
-          <div className="max-w-[1600px] mx-auto">
-            <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
-            
-            <div className="min-h-[400px]">
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={activeTab}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.15 }}
-                  className="w-full"
-                >
-                  {renderContent()}
-                </motion.div>
-              </AnimatePresence>
-            </div>
-          </div>
+        <div className="w-full px-3 sm:px-6 md:px-8 lg:px-12 xl:px-20 pb-8">
+          <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
+          
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeTab}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.15 }}
+              className="w-full"
+            >
+              {renderContent()}
+            </motion.div>
+          </AnimatePresence>
         </div>
 
         <Footer />
