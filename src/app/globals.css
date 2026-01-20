@@ -21,12 +21,6 @@
   --mi: #2196F3;
   --robotics: #F44336;
   --transportation: #795548;
-
-  /* iOS Safe Areas */
-  --safe-area-inset-top: env(safe-area-inset-top);
-  --safe-area-inset-bottom: env(safe-area-inset-bottom);
-  --safe-area-inset-left: env(safe-area-inset-left);
-  --safe-area-inset-right: env(safe-area-inset-right);
 }
 
 * {
@@ -38,35 +32,18 @@
 html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-}
-
-html,
-body {
-  width: 100%;
-  max-width: 100vw;
-  overflow-x: hidden;
-  font-family: 'Outfit', sans-serif;
+  height: 100%;
 }
 
 body {
   background: linear-gradient(135deg, var(--engsci-dark) 0%, var(--engsci-navy) 50%, var(--engsci-royal) 100%);
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  background-attachment: fixed;
+  min-height: 100%;
   color: white;
-  padding-top: var(--safe-area-inset-top);
-  padding-bottom: var(--safe-area-inset-bottom);
-  padding-left: var(--safe-area-inset-left);
-  padding-right: var(--safe-area-inset-right);
-}
-
-/* Hide scrollbar for cleaner mobile experience */
-::-webkit-scrollbar {
-  display: none;
-}
-
-* {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Animations */
@@ -122,35 +99,10 @@ body {
   background-size: 50px 50px;
 }
 
-/* Particle effect container */
-.particles {
-  position: fixed;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.particle {
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  background: var(--engsci-gold);
-  border-radius: 50%;
-  opacity: 0.3;
-}
-
 /* Mobile-specific improvements */
 @media (max-width: 640px) {
   .glass-strong {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-  }
-}
-
-/* Prevent pull-to-refresh on iOS */
-@media screen and (max-width: 768px) {
-  body {
-    overscroll-behavior-y: contain;
   }
 }

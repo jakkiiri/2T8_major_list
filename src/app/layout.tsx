@@ -17,9 +17,9 @@ const orbitron = Orbitron({
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
-  viewportFit: "cover",
+  minimumScale: 1,
+  maximumScale: 5,
+  userScalable: true,
   themeColor: "#002A5C",
 };
 
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   appleWebApp: {
     capable: true,
-    statusBarStyle: "black-translucent",
+    statusBarStyle: "default",
     title: "EngSci 2T8",
   },
   formatDetection: {
@@ -48,8 +48,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${outfit.variable} ${orbitron.variable} antialiased`}>
+    <html lang="en" style={{ height: "100%" }}>
+      <body className={`${outfit.variable} ${orbitron.variable} antialiased`} style={{ minHeight: "100%" }}>
         {children}
       </body>
     </html>

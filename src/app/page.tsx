@@ -33,22 +33,22 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen relative">
+    <div className="relative min-h-full">
       <ParticleBackground />
       
-      <div className="relative z-10">
+      <main className="relative" style={{ zIndex: 1 }}>
         <Header />
         
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 pb-8">
           <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
           
           <AnimatePresence mode="wait">
             <motion.div
               key={activeTab}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.3 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
             >
               {renderContent()}
             </motion.div>
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
 
         <Footer />
-      </div>
-    </main>
+      </main>
+    </div>
   );
 }

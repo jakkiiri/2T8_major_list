@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { ENGSCI_QUOTES } from "@/types";
-import { Sparkles, GraduationCap, PlusCircle } from "lucide-react";
+import { Sparkles, GraduationCap, PlusCircle, ArrowRight } from "lucide-react";
 
 export default function Header() {
   const [quoteIndex, setQuoteIndex] = useState(0);
@@ -90,7 +90,7 @@ export default function Header() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full glass mb-4 sm:mb-5"
+            className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full glass mb-5 sm:mb-6"
           >
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-[#FFD54F]" />
             <span className="text-xs sm:text-sm text-gray-300">
@@ -100,26 +100,37 @@ export default function Header() {
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-[#FFD54F]" />
           </motion.div>
 
-          {/* Call to Action Button */}
+          {/* BIG Call to Action Button */}
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 0.5 }}
-            className="mb-4 sm:mb-5"
+            className="mb-6 sm:mb-8"
           >
             <motion.a
               href="https://forms.gle/My1Kv9cdrK7DST3m6"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl bg-gradient-to-r from-[#FFD54F] to-[#FFC107] text-[#002A5C] font-semibold text-sm sm:text-base shadow-lg hover:shadow-xl transition-all"
-              whileHover={{ scale: 1.05, y: -2 }}
+              className="group inline-flex items-center gap-3 sm:gap-4 px-8 sm:px-12 py-4 sm:py-5 rounded-2xl bg-gradient-to-r from-[#FFD54F] via-[#FFC107] to-[#FFD54F] text-[#002A5C] font-bold text-lg sm:text-2xl shadow-2xl hover:shadow-[0_0_40px_rgba(255,213,79,0.5)] transition-all border-2 border-[#FFE082]"
+              whileHover={{ scale: 1.05, y: -4 }}
               whileTap={{ scale: 0.98 }}
+              animate={{ 
+                boxShadow: [
+                  "0 10px 40px rgba(255,213,79,0.3)",
+                  "0 10px 60px rgba(255,213,79,0.5)",
+                  "0 10px 40px rgba(255,213,79,0.3)"
+                ]
+              }}
+              transition={{ 
+                boxShadow: { duration: 2, repeat: Infinity, ease: "easeInOut" }
+              }}
             >
-              <PlusCircle className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span>Add Your Major</span>
+              <PlusCircle className="w-6 h-6 sm:w-8 sm:h-8" />
+              <span>ADD YOUR MAJOR</span>
+              <ArrowRight className="w-5 h-5 sm:w-7 sm:h-7 group-hover:translate-x-1 transition-transform" />
             </motion.a>
-            <p className="text-gray-400 text-xs mt-2">
-              2T8s only • One submission per person
+            <p className="text-gray-400 text-sm sm:text-base mt-3 font-medium">
+              🎓 2T8s only • One submission per person
             </p>
           </motion.div>
 
