@@ -5,6 +5,18 @@
     { "id": 3, "name": "Rihanna Popescu", "major": "Energy Systems" },
     { "id": 4, "name": "Hannah Moore", "major": "Biomedical" },
     { "id": 5, "name": "Marco Bordignon", "major": "Aerospace" },
-    { "id": 6, "name": "Violet Dimoglou", "major": "Energy Systems" }
+    { "id": 6, "name": "Violet Dimoglou", "major": "Energy Systems" },
+    { "id": 7, "name": "Adam Ben Lassoued", "major": "Aerospace" },
+    { "id": 8, "name": "Kate Shepherd", "major": "Biomedical" },
+    { "id": 9, "name": "Hayson Cheung", "major": "Robotics" },
+    { "id": 10, "name": "Susie Evedzi", "major": "Biomedical" },
+    { "id": 11, "name": "Peter Leong", "major": "Electrical and Computer" },
+    { "id": 12, "name": "Claire Shi", "major": "Biomedical" },
+    { "id": 13, "name": "Geoffrey Cuff-Chartrand", "major": "Engineering Physics" },
+    { "id": 14, "name": "Mark Saad", "major": "Energy Systems" },
+    { "id": 15, "name": "Jaden Dai", "major": "Robotics" },
+    { "id": 16, "name": "Yang Yang Zhang", "major": "Electrical and Computer" },
+    { "id": 17, "name": "Michael Strojney", "major": "Engineering Physics" }
+    
   ]
 }
