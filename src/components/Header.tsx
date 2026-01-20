@@ -134,19 +134,19 @@ export default function Header() {
             </p>
           </motion.div>
 
-          {/* Rotating Quote */}
-          <motion.div
-            key={quoteIndex}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.5 }}
-            className="max-w-2xl mx-auto px-2"
-          >
-            <p className="text-sm sm:text-xl md:text-2xl text-gray-300 italic font-light leading-relaxed">
+          {/* Rotating Quote - Fixed height container to prevent layout shift */}
+          <div className="max-w-2xl mx-auto px-2 min-h-[60px] sm:min-h-[70px] flex items-center justify-center">
+            <motion.p
+              key={quoteIndex}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-sm sm:text-xl md:text-2xl text-gray-300 italic font-light leading-relaxed"
+            >
               &ldquo;{ENGSCI_QUOTES[quoteIndex]}&rdquo;
-            </p>
-          </motion.div>
+            </motion.p>
+          </div>
         </motion.div>
       </div>
     </header>
