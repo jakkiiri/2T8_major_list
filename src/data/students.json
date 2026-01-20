@@ -16,7 +16,18 @@
     { "id": 14, "name": "Mark Saad", "major": "Energy Systems" },
     { "id": 15, "name": "Jaden Dai", "major": "Robotics" },
     { "id": 16, "name": "Yang Yang Zhang", "major": "Electrical and Computer" },
-    { "id": 17, "name": "Michael Strojney", "major": "Engineering Physics" }
+    { "id": 17, "name": "Michael Strojney", "major": "Engineering Physics" },
+    { "id": 18, "name": "Nicholas Fry", "major": "Aerospace" },
+    { "id": 19, "name": "Eric Xie", "major": "Robotics" },
+    { "id": 20, "name": "Nelson Siu", "major": "Machine Learning" },
+    { "id": 21, "name": "Junhee Park", "major": "Aerospace" },
+    { "id": 22, "name": "Karys Littlejohns", "major": "Biomedical" },
+    { "id": 23, "name": "Dylan Setyono", "major": "Math Stats Finance" },
+    { "id": 24, "name": "Boya Zhang", "major": "Robotics" },
+    { "id": 25, "name": "Jerry Jiang", "major": "Math Stats Finance" },
+    { "id": 26, "name": "Kairu Liu", "major": "Biomedical" },
+    { "id": 27, "name": "Alex Klaus", "major": "Aerospace" },
+    { "id": 28, "name": "Ana Luiza Larieu", "major": "Biomedical" }
     
   ]
 }

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { ENGSCI_QUOTES } from "@/types";
-import { Sparkles, GraduationCap } from "lucide-react";
+import { Sparkles, GraduationCap, PlusCircle } from "lucide-react";
 
 export default function Header() {
   const [quoteIndex, setQuoteIndex] = useState(0);
@@ -90,7 +90,7 @@ export default function Header() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full glass mb-4 sm:mb-6"
+            className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full glass mb-4 sm:mb-5"
           >
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-[#FFD54F]" />
             <span className="text-xs sm:text-sm text-gray-300">
@@ -98,6 +98,29 @@ export default function Header() {
               <span className="sm:hidden">UofT Engineering</span>
             </span>
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-[#FFD54F]" />
+          </motion.div>
+
+          {/* Call to Action Button */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.5 }}
+            className="mb-4 sm:mb-5"
+          >
+            <motion.a
+              href="https://forms.gle/My1Kv9cdrK7DST3m6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl bg-gradient-to-r from-[#FFD54F] to-[#FFC107] text-[#002A5C] font-semibold text-sm sm:text-base shadow-lg hover:shadow-xl transition-all"
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              <PlusCircle className="w-4 h-4 sm:w-5 sm:h-5" />
+              <span>Add Your Major</span>
+            </motion.a>
+            <p className="text-gray-400 text-xs mt-2">
+              2T8s only • One submission per person
+            </p>
           </motion.div>
 
           {/* Rotating Quote */}
