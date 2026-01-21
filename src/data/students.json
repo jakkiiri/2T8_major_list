@@ -50,6 +50,7 @@
     { "id": 48, "name": "Jade Chang", "major": "Aerospace" },
     { "id": 49, "name": "Yiran Feng", "major": "Biomedical" },
     { "id": 50, "name": "Victoria Sun", "major": "Biomedical" },
-    { "id": 51, "name": "Malia Lubach", "major": "Math Stats Finance" }
+    { "id": 51, "name": "Malia Lubach", "major": "Math Stats Finance" },
+    { "id": 52, "name": "Sam Zanbilowicz", "major": "Biomedical" }
   ]
 }
