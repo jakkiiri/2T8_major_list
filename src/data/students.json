@@ -40,7 +40,7 @@
     { "id": 38, "name": "Hasnain Syed", "major": "Machine Intelligence" },
     { "id": 39, "name": "Luke Payant", "major": "Aerospace" },
     { "id": 40, "name": "Charlie Martinez", "major": "Engineering Physics" },
-    { "id": 41, "name": "Shreyaj Pal Choudhury", "major": "Machine Intelligence"}
+    { "id": 41, "name": "Shreyaj Pal Choudhury", "major": "Machine Intelligence"},
     { "id": 42, "name": "Anna Cai", "major": "Energy Systems" }
   ]
 }
