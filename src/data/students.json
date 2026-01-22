@@ -51,6 +51,9 @@
     { "id": 49, "name": "Yiran Feng", "major": "Biomedical" },
     { "id": 50, "name": "Victoria Sun", "major": "Biomedical" },
     { "id": 51, "name": "Malia Lubach", "major": "Math Stats Finance" },
-    { "id": 52, "name": "Sam Zanbilowicz", "major": "Biomedical" }
+    { "id": 52, "name": "Sam Zanbilowicz", "major": "Biomedical" },
+    { "id": 53, "name": "Yingxuan Qi", "major": "Electrical and Computer" },
+    { "id": 54, "name": "Apishegan Santhirasegaram", "major": "Energy Systems" },
+    { "id": 55, "name": "Leo Shen", "major": "Aerospace" }
   ]
 }
