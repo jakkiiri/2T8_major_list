@@ -54,6 +54,8 @@
     { "id": 52, "name": "Sam Zanbilowicz", "major": "Biomedical" },
     { "id": 53, "name": "Yingxuan Qi", "major": "Electrical and Computer" },
     { "id": 54, "name": "Apishegan Santhirasegaram", "major": "Energy Systems" },
-    { "id": 55, "name": "Leo Shen", "major": "Aerospace" }
+    { "id": 55, "name": "Leo Shen", "major": "Aerospace" },
+    { "id": 56, "name": "Memo Ozdincer", "major": "Engineering Physics" },
+    { "id": 57, "name": "Han Fang", "major": "Electrical and Computer" }
   ]
 }
