@@ -57,6 +57,7 @@
     { "id": 55, "name": "Leo Shen", "major": "Aerospace" },
     { "id": 56, "name": "Memo Ozdincer", "major": "Engineering Physics" },
     { "id": 57, "name": "Han Fang", "major": "Electrical and Computer" },
-    { "id": 58, "name": "Oscar Anacleto Krause", "major": "Aerospace"}
+    { "id": 58, "name": "Oscar Anacleto Krause", "major": "Aerospace"},
+    { "id": 59, "name": "Affie Fan", "major": "Aerospace"}
   ]
 }
