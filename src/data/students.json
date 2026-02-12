@@ -60,6 +60,8 @@
     { "id": 58, "name": "Oscar Anacleto Krause", "major": "Aerospace"},
     { "id": 59, "name": "Affie Fan", "major": "Aerospace"},
     { "id": 60, "name": "Cindy Yu", "major": "Biomedical"},
-    { "id": 61, "name": "Ciara Browne", "major": "Aerospace" }
+    { "id": 61, "name": "Ciara Browne", "major": "Aerospace" }, 
+    { "id": 62, "name": "Chloe Yu", "major": "Biomedical"},
+    { "id": 63, "name": "Daniel Deng", "major": "Math Stats Finance"}
   ]
 }
