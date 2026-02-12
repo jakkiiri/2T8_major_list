@@ -62,6 +62,10 @@
     { "id": 60, "name": "Cindy Yu", "major": "Biomedical"},
     { "id": 61, "name": "Ciara Browne", "major": "Aerospace" }, 
     { "id": 62, "name": "Chloe Yu", "major": "Biomedical"},
-    { "id": 63, "name": "Daniel Deng", "major": "Math Stats Finance"}
+    { "id": 63, "name": "Daniel Deng", "major": "Math Stats Finance"},
+    { "id": 64, "name": "Dazhou Huang", "major": "Electrical and Computer"},
+    { "id": 65, "name": "Rooney Cheung", "major": "Aerospace" }, 
+    { "id": 66, "name": "Kimmy Tran", "major": "Math Stats Finance"},
+    { "id": 67, "name": "Soham Shorey", "major": "Biomedical"}
   ]
 }
