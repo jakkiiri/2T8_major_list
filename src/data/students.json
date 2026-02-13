@@ -66,6 +66,8 @@
     { "id": 64, "name": "Dazhou Huang", "major": "Electrical and Computer"},
     { "id": 65, "name": "Rooney Cheung", "major": "Aerospace" }, 
     { "id": 66, "name": "Kimmy Tran", "major": "Math Stats Finance"},
-    { "id": 67, "name": "Soham Shorey", "major": "Biomedical"}
+    { "id": 67, "name": "Soham Shorey", "major": "Biomedical"},
+    { "id": 68, "name": "Amanda Mongillo", "major": "Robotics"},
+    { "id": 69, "name": "Alena Chen", "major": "Robotics"}
   ]
 }
