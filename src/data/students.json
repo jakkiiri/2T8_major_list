@@ -70,7 +70,12 @@
     { "id": 68, "name": "Amanda Mongillo", "major": "Robotics"},
     { "id": 69, "name": "Alena Chen", "major": "Robotics"},
     { "id": 70, "name": "Srishti Krishnan", "major": "Aerospace"},
-    { "id": 71, "name": "Lynn Tao", "major": "Math Stats Finance"}
+    { "id": 71, "name": "Lynn Tao", "major": "Math Stats Finance"},
+    { "id": 72, "name": "Ziyu Chen", "major": "Aerospace"},
+    { "id": 73, "name": "Joey Li", "major": "Machine Intelligence"},
+    { "id": 74, "name": "Ablah Gadallah", "major": "Electrical and Computer"},
+    { "id": 75, "name": "Richa Shah", "major": "Math Stats Finance"}
+    
 
   ]
 }
