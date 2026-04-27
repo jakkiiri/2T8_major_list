@@ -71,11 +71,15 @@
     { "id": 69, "name": "Alena Chen", "major": "Robotics"},
     { "id": 70, "name": "Srishti Krishnan", "major": "Aerospace"},
     { "id": 71, "name": "Lynn Tao", "major": "Math Stats Finance"},
-    { "id": 72, "name": "Ziyu Chen", "major": "Aerospace"},
+    { "id": 72, "name": "Jacob Chen", "major": "Aerospace"},
     { "id": 73, "name": "Joey Li", "major": "Machine Intelligence"},
     { "id": 74, "name": "Ablah Gadallah", "major": "Electrical and Computer"},
-    { "id": 75, "name": "Richa Shah", "major": "Math Stats Finance"}
-    
-
+    { "id": 75, "name": "Richa Shah", "major": "Math Stats Finance"},
+    { "id": 76, "name": "Sumedhaa Ruhil", "major": "Electrical and Computer"},
+    { "id": 77, "name": "Mikeli Italiano", "major": "Aerospace"},
+    { "id": 78, "name": "Rada Atanasova", "major": "Biomedical"},
+    { "id": 79, "name": "Renee Chan", "major": "Biomedical"},
+    { "id": 80, "name": "Ricky Yang", "major": "Electrical and Computer"},
+    { "id": 81, "name": "Serena Suleman", "major": "Energy Systems"}
   ]
 }
